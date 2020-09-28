@@ -4,22 +4,29 @@
 
 def order(values: list = None) -> list:
     if values is None:
-        # TODO: demander les valeurs ici
-        pass
+        values = []
+        while len(values) < 10:
+            values.append(input("Entrez une seule valeur\n"))
 
-    return []
+    print("The sorted list is:", sorted(values))
+    return sorted(values)
 
 
 def anagrams(words: list = None) -> bool:
     if words is None:
-        # TODO: demander les mots ici
-        pass
+        words = []
+        while len(words) < 2:
+            words.append(input("Entrez un mot:\n"))
 
-    return False
+        print(sorted(words[0]))
+        print(sorted(words[1]))
+    print("Ces deux mots sont des anagrames:", sorted(words[0]) == sorted(words[1]))
+
+    return sorted(words[0]) == sorted(words[1])
 
 
 def contains_doubles(items: list) -> bool:
-    return False
+    return len(set(items) != len(items))
 
 
 def best_grades(student_grades: dict) -> dict:
