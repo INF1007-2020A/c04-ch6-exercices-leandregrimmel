@@ -9,10 +9,10 @@ ERROR: test_frequence (__main__.TestExercice)
 ----------------------------------------------------------------------
 Traceback (most recent call last):
   File "test_exercice.py", line 77, in test_frequence
-    output = [exercice.frequence(s) for s in sentences]
+    output = [exercice2.frequence(s) for s in sentences]
   File "test_exercice.py", line 77, in <listcomp>
-    output = [exercice.frequence(s) for s in sentences]
-  File "/home/runner/work/c04-ch6-exercices-leandregrimmel/c04-ch6-exercices-leandregrimmel/exercice.py", line 50, in frequence
+    output = [exercice2.frequence(s) for s in sentences]
+  File "/home/runner/work/c04-ch6-exercices-leandregrimmel/c04-ch6-exercices-leandregrimmel/exercice2.py", line 50, in frequence
     sorted_keys = sorted(frequence, key=frequency.__getitem__, reverse=True)
 TypeError: 'function' object is not iterable
 
