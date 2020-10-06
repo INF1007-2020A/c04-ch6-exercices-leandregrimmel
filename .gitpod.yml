@@ -3,7 +3,7 @@ tasks:
   - init: |
       source settings/variables.txt
       python3 -m pip install -q git+"$classroom_tools_url"
-    command: python3 -m classroom_tools.auto_git --filename=exercice.py
+    command: python3 -m classroom_tools.auto_git --filename=exercice2.py
     openMode: tab-after
     name: Auto git
   - command: |

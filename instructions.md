@@ -13,7 +13,7 @@
     * Vos modifications sont automatiquement sauvegardées dans Gitpod
     * Gitpod et GitHub sont [automatiquement synchronisés](.gitpod.yml#L6)
     * Vous recevrez automatiquement les modifications effectuées dans le fichier [_exercice_version_prof.py](_exercice_version_prof.py) pour fin de consultation lors des séances
-    * Votre fichier [exercice.py](exercice.py) sera automatiquement mis à jour dans GitHub et visible au professeur
+    * Votre fichier [exercice.py](exercice2.py) sera automatiquement mis à jour dans GitHub et visible au professeur
 5. Une fois la séance terminée, sélectionnée [Workspace | Stop Workspace](https://www.gitpod.io/docs/life-of-workspace/#timeouts)
 pour fermer votre espace de travail sur Gitpod
 # Étapes pour les autres séances
@@ -56,6 +56,6 @@ pour fermer votre espace de travail sur Gitpod
     * Effectuer un [git pull](https://git-scm.com/docs/git-pull/)
       pour recevoir les modifications effectuées dans le fichier [_exercice_version_prof.py](_exercice_version_prof.py) pour fin de consultation lors des séances
     * Effectuer les [opérations git](https://git-scm.com/docs)
-      pour envoyer vos modifications du fichier [exercice.py](exercice.py) à GitHub et au professeur
+      pour envoyer vos modifications du fichier [exercice.py](exercice2.py) à GitHub et au professeur
       * utiliser [git avec GitHub Desktop](https://docs.github.com/en/desktop/getting-started-with-github-desktop/creating-your-first-repository-using-github-desktop#introduction)
       * utiliser [git avec PyCharm](https://www.jetbrains.com/help/pycharm/using-git-integration.html)

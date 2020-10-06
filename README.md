@@ -19,7 +19,7 @@ Avant de commencer, consultez les instructions à suivre dans [instructions.md](
 
 ## Objectifs
 
-Compléter les quelques exercices suivants en modifiant le code de [exercice.py](exercice.py):
+Compléter les quelques exercices suivants en modifiant le code de [exercice.py](exercice2.py):
 
 1. Écrire un programme qui demande à l’utilisateur d’entrer 10 valeurs (entier, float, str), et qui ordonne la liste fournie.
 2. Deux mots sont des anagrammes si vous pouvez réarranger les lettres de l'un pour en former l'autre (par exemple ALEVIN et NIVELA sont des anagrammes). Écrivez un programme qui demande deux chaînes de caractère et qui vérifie si ce sont des anagrammes.
@@ -29,7 +29,7 @@ Compléter les quelques exercices suivants en modifiant le code de [exercice.py]
 6. Écrire un programme qui permet de sauvegarder les ingrédients nécessaires à plusieurs recettes, dans une seule structure de données. Par la suite, écrire un programme qui affiche les ingrédients d’une recette, en vérifiant au préalable si cette recette est dans notre livre de recettes.
 
 ### À compléter
-Vous devez compléter les fonctions suivantes du fichier [exercice.py](exercice.py).
+Vous devez compléter les fonctions suivantes du fichier [exercice.py](exercice2.py).
 
 ```python
 def order(values: list = None) -> list:

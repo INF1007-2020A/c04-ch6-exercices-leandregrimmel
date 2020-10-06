@@ -8,7 +8,7 @@ on:
   push:
     branches: master
     paths:
-      - exercice.py
+      - exercice2.py
       - README.md
       - logs/*
 jobs:
